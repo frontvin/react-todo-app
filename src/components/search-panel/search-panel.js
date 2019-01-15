@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchPannel = () => {
+const SearchPanel = () => {
     const searchText = 'Type here to search';
     const searchStyle = {
         fonsize: '20px'
@@ -11,4 +11,4 @@ const SearchPannel = () => {
         placeholder={searchText}></input>;
 };
 
-export default SearchPannel;
+export default SearchPanel;
